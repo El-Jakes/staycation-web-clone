@@ -11,7 +11,7 @@ body {
 nav {
   width: 100%;
   height: 80px;
-  border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .container {
@@ -26,13 +26,15 @@ nav {
   justify-content: space-between;
 }
 
-.nav-logo {
+.nav-logo,
+.footer-logo {
   color: #152c5b;
   font-size: 26px;
   font-weight: 600;
 }
 
-.nav-logo-blue {
+.nav-logo-blue,
+.footer-logo-blue {
   color: #3252df;
 }
 
@@ -153,4 +155,80 @@ nav {
   top: 50px;
   left: 50px;
   z-index: -1;
+}
+
+main {
+  width: 100%;
+  height: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 310px;
+  padding: 50px 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer-menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo-wrapper {
+  width: 258px;
+  height: 95px;
+  margin-top: -10px;
+}
+
+.footer-logo {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    margin-top: 0;
+}
+
+.footer-menu-links {
+  width: 170px;
+  height: 135px;
+}
+
+.footer-menu-links p,
+.footer-menu-heading {
+  color: #152c5b;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.footer-menu-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu-links ul li {
+  line-height: 2;
+}
+
+.footer-menu-links ul a,
+.footer-description,
+.footer-connect,
+.copyright {
+  text-decoration: none;
+  color: #b0b0b0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer-connect {
+  width: 200px;
+  height: 135px;
+}
+
+.copyright {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
 }
