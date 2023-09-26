@@ -161,8 +161,9 @@ nav {
 main {
 }
 
-.most-picked-wrapper {
+.most-picked-section {
   height: 516px;
+  /* padding: 70px 0; */
 }
 
 .most-picked-grid {
@@ -205,17 +206,58 @@ main {
   width: 361px;
 }
 
-.most-picked-grid p {
+.price-tag {
   width: 180px;
   height: 40px;
   text-align: center;
   line-height: 40px;
   border-radius: 0 15px;
   position: absolute;
-  left: 181.5px;
   top: -16px;
   background-color: #ff498b;
   color: #ffffff;
+}
+
+.most-picked-price {
+  left: 181.5px;
+}
+
+.beauty-backyard-section {
+  height: 305px;
+}
+
+.beauty-backyard-flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.beauty-backyard-flex-item {
+  position: relative;
+}
+
+.beauty-backyard-choice {
+  left: 83px;
+}
+
+.beauty-backyard-flex-item img {
+  width: 263px;
+  height: 180px;
+}
+
+.beauty-backyard-item-title,
+.beauty-backyard-item-description {
+  margin: 0;
+}
+
+.beauty-backyard-item-title {
+  margin-top: 10px;
+  color: #152c5b;
+  font-weight: 500;
+}
+
+.beauty-backyard-item-description {
+  color: #b0b0b0;
 }
 
 /* footer */
