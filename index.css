@@ -206,7 +206,7 @@ main {
   width: 361px;
 }
 
-.price-tag {
+.listings-price-tag {
   width: 180px;
   height: 40px;
   text-align: center;
@@ -223,64 +223,70 @@ main {
 }
 
 .most-picked-description {
-    position: absolute;
-    top: 150px;
-    left: 25px;
-    color: #ffffff;
+  position: absolute;
+  top: 150px;
+  left: 25px;
+  color: #ffffff;
 }
 
 .most-picked-description-long {
-    top: 390px;
+  top: 390px;
 }
 
 .most-picked-description p {
-    margin: 0;
+  margin: 0;
 }
 
 .most-picked-description .location {
-    font-size: 15px;
-    font-weight: 300;
+  font-size: 15px;
+  font-weight: 300;
 }
 .most-picked-description .name {
-    font-size: 20px;
-    font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-.beauty-backyard-section {
+.listings-section {
   height: 305px;
 }
 
-.beauty-backyard-flex-wrapper {
+.listings-flex-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.beauty-backyard-flex-item {
+.listings-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #152c5b;
+}
+
+.listings-flex-item {
   position: relative;
 }
 
-.beauty-backyard-choice {
+.listings-choice {
   left: 83px;
 }
 
-.beauty-backyard-flex-item img {
+.listings-flex-item img {
   width: 263px;
   height: 180px;
 }
 
-.beauty-backyard-item-title,
-.beauty-backyard-item-description {
+.listings-flex-item-title,
+.listings-flex-item-description {
   margin: 0;
 }
 
-.beauty-backyard-item-title {
+.listings-flex-item-title {
   margin-top: 10px;
   color: #152c5b;
   font-weight: 500;
 }
 
-.beauty-backyard-item-description {
+.listings-flex-item-description {
   color: #b0b0b0;
 }
 
