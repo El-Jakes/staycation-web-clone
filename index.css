@@ -96,18 +96,18 @@ nav {
 }
 
 .btn {
-    padding: 15px 30px;
-    border: none;
-    border-radius: 4px;
-    background-color: #3252df;
-    color: #ffffff;
-    box-shadow: 0px 8px 15px 0px rgba(50, 82, 223, 0.3);
-    cursor: pointer;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3252df;
+  color: #ffffff;
+  box-shadow: 0px 8px 15px 0px rgba(50, 82, 223, 0.3);
+  cursor: pointer;
 }
 
 .hero-btn {
-    width: 150px;
-    margin: 30px 0 82px;
+  width: 150px;
+  margin: 30px 0 82px;
 }
 
 .hero-icons-container {
@@ -248,7 +248,7 @@ nav {
 }
 
 .livingroom-section {
-    margin: 70px auto;
+  margin: 40px auto;
 }
 
 .listings-section {
@@ -262,9 +262,10 @@ nav {
 }
 
 .listings-title {
-    font-size: 24px;
-    font-weight: 500;
-    color: #152c5b;
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #152c5b;
 }
 
 .listings-flex-item {
@@ -297,83 +298,83 @@ nav {
 
 /* reviews */
 .review-section {
-    height: 541px;
-    margin: 100px auto;
+  height: 541px;
+  margin: 100px auto;
 }
 
 .review-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
 }
 
 .review-left {
-    position: relative;
-    width: 405px;
-    height: 541px;
+  position: relative;
+  width: 405px;
+  height: 541px;
 }
 
 .review-left div {
-    width: 356px;
-    height: 487px;
+  width: 356px;
+  height: 487px;
 }
 
 .review-left img {
-    width: 366px;
-    height: 502px;
+  width: 366px;
+  height: 502px;
 }
 
 .review-left div {
-    border: 3px solid #efefef;
-    border-radius: 15px;
+  border: 3px solid #efefef;
+  border-radius: 15px;
 }
 
 .review-left img {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    width: 366px;
-    height: 502px;
-    border-radius: 15px 15px 100px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 366px;
+  height: 502px;
+  border-radius: 15px 15px 100px;
 }
 
 .review-right {
-    width: 596px;
-    height: 351px;
+  width: 596px;
+  height: 351px;
 }
 
 .review-title {
-    font-size: 24px;
-    font-weight: 500;
-    color: #152c5b;
+  font-size: 24px;
+  font-weight: 500;
+  color: #152c5b;
 }
 
 .review-stars {
-    width: 180px;
-    font-size: 26px;
-    color: #ffcc47;
+  width: 180px;
+  font-size: 26px;
+  color: #ffcc47;
 }
 
 .review-description {
-    margin: 0;
-    font-size: 32px;
-    font-weight: 400;
-    color: #152c5b;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 400;
+  color: #152c5b;
 }
 
 .reviewer-name {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 300;
-    color: #b0b0b0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #b0b0b0;
 }
 .review-btn {
-    margin-top: 50px;
-    width: 210px;
-    height: 50px;
-    font-size: 18px;
-    font-weight: 500;
+  margin-top: 50px;
+  width: 210px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 /* footer */
